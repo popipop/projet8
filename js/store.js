@@ -99,7 +99,7 @@
 			callback.call(this, todos);
 		} else {
 
-			// Genererate a new id
+			// Generate a new id
 			for (var i = 0; i < 6; i++) {
 				newId += charset.charAt(Math.floor(Math.random() * charset.length));
 			}
